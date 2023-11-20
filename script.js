@@ -1,6 +1,5 @@
-// Add JavaScript to toggle the 'flipped' class on tap
 document.querySelectorAll('.flip-card').forEach(function(card) {
-    card.addEventListener('click', function() {
+    card.addEventListener('touchstart', function() {
         this.classList.toggle('flipped');
     });
 });
