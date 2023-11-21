@@ -8,11 +8,12 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    background-image: url(giphy.gif);
-    background-position: center;
+    background-image: url("giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
+    background-position: center;
+    padding-bottom: 40px;
 }
 
 .flip-card {
@@ -29,6 +30,9 @@ body {
     font-weight: 900;
     text-align: center;
     margin: 0;
+    text-wrap: balance;
+    margin-right: 12px;
+    margin-left: 12px;
   }
   
   .flip-card-inner {
